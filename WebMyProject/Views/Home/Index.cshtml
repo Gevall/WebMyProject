@@ -3,7 +3,76 @@
     Layout = "_Layout";
     ViewData["Title"] = "HomePage";
 }
-
+<html>
+    <head>
+    </head>
 <body>
-    Домашняя страница
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">CRM 0.0.3.alpha</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Домашняя</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Список проектов</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Командировки</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Сотрудники</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <p>
+            <h3 align="center">Это начальная страница. Добро пожаловать!</h3>
+        </p>
+    </div>
+    @*
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        Меню
+    </button>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="list-group">
+                <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+                    The current button
+                </button>
+                <button type="button" class="list-group-item list-group-item-action">A second button item</button>
+                <button type="button" class="list-group-item list-group-item-action">A third button item</button>
+                <button type="button" class="list-group-item list-group-item-action">A fourth button item</button>
+                <button type="button" class="list-group-item list-group-item-action" disabled>A disabled button item</button>
+            </div>
+            <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    *@
 </body>
+</html>

@@ -39,6 +39,8 @@ namespace WebMyProject
             app.UseAuthentication(); 
             // Использование авторизации
             app.UseAuthorization();
+            app.UseStaticFiles();
+            app.UseDefaultFiles();
 
             app.Run();
         }
