@@ -1,0 +1,20 @@
+﻿@using WebMyProject.Model;
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Командировки";
+}
+<caption>Тестовая таблица</caption> 
+    <table class="table table-striped">
+            @foreach (var e in @TripsTest.trips)
+            {
+                <tr>
+                    <td align="left">@e.Manager</td>
+                    <td align="left">@e.Docs</td>
+                    <td align="left">@e.LoadCrm</td>
+                    <td align="left">@e.ReadySort</td>
+                    <td align="left">@e.Specialist</td>
+                    <td align="left">@e.DateTrip</td>
+                </tr>
+            }
+    </table>
+
