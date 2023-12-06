@@ -13,8 +13,8 @@ namespace WebMyProject
         /// </summary>
         public static List<UserLogin> usersForTest = new List<UserLogin>
         {
-            new UserLogin{email="test01@mail.ru", password="12345678"},
-            new UserLogin{email="test02@mail.ru", password="12345678"}
+            new UserLogin{email="test01@mail.ru", password="12345678", role="Administrator"},
+            new UserLogin{email="test02@mail.ru", password="12345678", role="User"}
         };
 
         public static void Main(string[] args)

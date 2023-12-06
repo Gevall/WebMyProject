@@ -9,7 +9,7 @@
         private string docs; // Сдал акт или нет
         private string readySoft; // Собранность СЗИ
         private string specialis; // Фамилия исполнителя
-        private DateOnly dateTrip; // Дата выезда
+        private DateTime dateTrip; // Дата выезда
         //private string dateLoad; // Дата Занесения
         //private string dateSale; // Дата заключения договора
         //private string deadline; // Дедлайн договора
@@ -26,7 +26,7 @@
         public string Docs { get { return this.docs; } set { this.docs = value; } }
         public string ReadySort { get { return this.readySoft; } set { this.readySoft = value; } }
         public string Specialist { get { return this.specialis; } set { this.specialis = value; } }
-        public DateOnly DateTrip { get { return this.dateTrip; } set { this.dateTrip = value; } }
+        public DateTime DateTrip { get { return this.dateTrip; } set { this.dateTrip = value; } }
         //public string DateLoad { get { return this.dateLoad; } set { this.dateLoad = value; } }
         //public string DateSale { get { return this.dateSale; } set { this.dateSale = value; } }
         //public string Deadline { get { return this.deadline; } set { this.deadline = value; } }
